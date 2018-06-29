@@ -2,7 +2,7 @@
 
 
 ## This is the basic code to make getter and setter dynamic
-```
+```java
 DynamicDto o1;
 String variableName = "variable1";
 
@@ -11,7 +11,7 @@ Object objeto = new PropertyDescriptor(variableName, DynamicDto.class).getReadMe
 
 
 ## This code use  getter and setter dynamic  in a compare
-```
+```java
 @Override
 public int compare(DynamicDto o1, DynamicDto o2) {
 
