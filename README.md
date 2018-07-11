@@ -41,3 +41,10 @@ try {
   return salida;
 }  
 ```
+
+## Other simple code
+```java
+String variable = "valueCar"
+DataDto data =  new DataDto();							
+new PropertyDescriptor(variable, personalizacion.getClass()).getWriteMethod().invoke(data, "Value");
+```
